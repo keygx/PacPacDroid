@@ -1,0 +1,30 @@
+settings =
+{
+  orientation =
+  {
+    default = "portrait",
+    content = "portrait",
+    supported = {
+      "portrait",
+    },
+  },
+  iphone =
+  {
+    plist =
+    {
+      CFBundleLocalizations = {},
+      CFBundleVersion = "1.0.0",
+      MinimumOSVersion = "4.3",
+      UIPrerenderedIcon = false,
+      UIApplicationExitsOnSuspend = false,
+    },
+  },
+  android =
+  {
+    versionCode = "1",
+    versionName = "1.0.0",
+    installLocation = "auto",
+  },
+  androidPermissions =
+  {},
+}
